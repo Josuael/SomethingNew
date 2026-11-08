@@ -1,0 +1,28 @@
+{
+  "name": "somethingnew",
+  "version": "1.0.0",
+  "description": "a tutorial for js project",
+  "homepage": "https://github.com/Josuael/SomethingNew#readme",
+  "bugs": {
+    "url": "https://github.com/Josuael/SomethingNew/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josuael/SomethingNew.git"
+  },
+  "license": "ISC",
+  "author": "Josua Ekklesia L",
+  "type": "module",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4",
+    "nodemon": "^3.1.14"
+  }
+}
